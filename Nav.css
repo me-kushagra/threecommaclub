@@ -1,0 +1,180 @@
+* {
+    
+    margin: 0;
+    padding: 0;
+}
+
+.NavBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 95vw;
+    height: 5vh;
+    background-color: black;
+    padding: 2vw;
+
+}
+
+.Bn {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    color: white;
+}
+
+.abc {
+
+    display: flex;
+    flex-direction: row;
+}
+
+.logo {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    font-size: 55px;
+
+
+    padding: 0 0 0 20px;
+}
+
+a {
+    color: black;
+    margin: 0 1vw;
+}
+
+.first_fold {
+    border-bottom: 20px solid black;
+    border-top: 10px solid black;
+    border-left: 55px solid black;
+    border-right: 55px solid black;
+    display: flex;
+    flex-direction: column;
+
+    padding-top: 25px;
+    align-items: center;
+    font-size: 35px;
+    height: 431vh;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.txt {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    color: white;
+    padding-right: 25px;
+}
+
+.news-container {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 80vw;
+}
+
+.news {
+    
+    display: flex;
+    flex: row;
+    align-items: center;
+    justify-content: center;
+    padding: 2vw;
+    margin: 2vh;
+    border: 2px outset black;
+    border-radius: 2px;
+}
+
+.news p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    margin: 2vw;
+}
+
+.NavBar img {
+    width: 5vw;
+    height: 5vh;
+}
+
+.heading {
+    justify-content: center;
+    align-items: center;
+}
+
+.news-container img {
+    width: 25vw;
+    height: 25vw;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 95vw;
+    height: 30vh;
+    background-color: black;
+    padding: 2vw;
+    border-top: 0.5px solid grey;
+
+}
+.logo2{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    font-size: 50px;
+    height: 95px;
+    
+
+
+    padding: 0 0 0 80px;
+
+}
+.ftxt a{
+    color: palevioletred;
+    padding-right: 0px;
+}
+.ftxt { 
+
+    font-size: 32px;
+    display: flex;
+    flex-direction: row;
+
+}
+.btt{
+    padding-bottom: 20px;
+}
+#bt{
+    width: 80vw;
+    height: 10vh;
+    color: white;
+    background-color: red;
+    font-size: 20PX;
+    
+
+}
+
+#bt:hover{
+    background-color: pink;
+}
+
+.connect img{
+    padding-left: 5px;
+    width: 2vw;
+    height: 3vh;
+}
+
+.logo2 pr{
+    margin-top: 85px;
+    font-size: 12px;
+    
+}
+.logo2 strong{
+    font-size: 50px;
+}
+.news a{
+    color: white;
+}
